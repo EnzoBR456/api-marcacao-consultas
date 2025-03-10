@@ -1,0 +1,10 @@
+2025-03-10 16:14:37.805282-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CONSULTAS ID [*]DATA_HORA"; SQL statement:
+SELECT * FROM CONSULTAS ID DATA_HORA [42000-232]
+2025-03-10 16:15:03.986132-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "ID" not found; SQL statement:
+SELECT * FROM ID [42102-232]
+2025-03-10 16:15:19.234186-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CONSULTAS\000d\000aESPECIALIDADES [*]USUARIO_ID"; SQL statement:
+SELECT * FROM CONSULTAS
+ESPECIALIDADES USUARIO_ID [42000-232]
